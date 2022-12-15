@@ -142,11 +142,29 @@
     <Compile Include="ESTACIONAMIENTO.Designer.cs">
       <DependentUpon>ESTACIONAMIENTO.cs</DependentUpon>
     </Compile>
+    <Compile Include="FACTURA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FACTURA.Designer.cs">
+      <DependentUpon>FACTURA.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HORARIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HORARIO.Designer.cs">
+      <DependentUpon>HORARIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="INVENTARIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INVENTARIO.Designer.cs">
+      <DependentUpon>INVENTARIO.cs</DependentUpon>
     </Compile>
     <Compile Include="MANTENIMIENTO.cs">
       <SubType>Form</SubType>
@@ -154,8 +172,50 @@
     <Compile Include="MANTENIMIENTO.Designer.cs">
       <DependentUpon>MANTENIMIENTO.cs</DependentUpon>
     </Compile>
+    <Compile Include="MARCA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MARCA.Designer.cs">
+      <DependentUpon>MARCA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MERCANCIAEXTRA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MERCANCIAEXTRA.Designer.cs">
+      <DependentUpon>MERCANCIAEXTRA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MOBILIARIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOBILIARIO.Designer.cs">
+      <DependentUpon>MOBILIARIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAGOSERVICIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAGOSERVICIO.Designer.cs">
+      <DependentUpon>PAGOSERVICIO.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PROVEEDOR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PROVEEDOR.Designer.cs">
+      <DependentUpon>PROVEEDOR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REPRESENTANTE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPRESENTANTE.Designer.cs">
+      <DependentUpon>REPRESENTANTE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SUCURSAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SUCURSAL.Designer.cs">
+      <DependentUpon>SUCURSAL.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Bodega.resx">
       <DependentUpon>Bodega.cs</DependentUpon>
     </EmbeddedResource>
@@ -204,11 +264,32 @@
     <EmbeddedResource Include="ESTACIONAMIENTO.resx">
       <DependentUpon>ESTACIONAMIENTO.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FACTURA.resx">
+      <DependentUpon>FACTURA.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HORARIO.resx">
+      <DependentUpon>HORARIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INVENTARIO.resx">
+      <DependentUpon>INVENTARIO.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MANTENIMIENTO.resx">
       <DependentUpon>MANTENIMIENTO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MARCA.resx">
+      <DependentUpon>MARCA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MERCANCIAEXTRA.resx">
+      <DependentUpon>MERCANCIAEXTRA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOBILIARIO.resx">
+      <DependentUpon>MOBILIARIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAGOSERVICIO.resx">
+      <DependentUpon>PAGOSERVICIO.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -219,6 +300,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PROVEEDOR.resx">
+      <DependentUpon>PROVEEDOR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPRESENTANTE.resx">
+      <DependentUpon>REPRESENTANTE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SUCURSAL.resx">
+      <DependentUpon>SUCURSAL.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

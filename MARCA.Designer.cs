@@ -1,7 +1,7 @@
 ﻿
 namespace proyectoZapateria
 {
-    partial class ESTACIONAMIENTO
+    partial class MARCA
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,6 @@ namespace proyectoZapateria
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.btnBorrar = new System.Windows.Forms.Button();
@@ -42,93 +41,85 @@ namespace proyectoZapateria
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(424, 20);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 127;
-            // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(34, 262);
+            this.button5.Location = new System.Drawing.Point(23, 251);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 29);
-            this.button5.TabIndex = 126;
+            this.button5.TabIndex = 169;
             this.button5.Text = "ANTERIOR";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(141, 262);
+            this.button4.Location = new System.Drawing.Point(130, 251);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 29);
-            this.button4.TabIndex = 125;
+            this.button4.TabIndex = 168;
             this.button4.Text = "SIGUIENTE";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // btnBorrar
             // 
-            this.btnBorrar.Location = new System.Drawing.Point(326, 302);
+            this.btnBorrar.Location = new System.Drawing.Point(315, 291);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(75, 29);
-            this.btnBorrar.TabIndex = 124;
+            this.btnBorrar.TabIndex = 167;
             this.btnBorrar.Text = "Borrar";
             this.btnBorrar.UseVisualStyleBackColor = true;
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(326, 273);
+            this.btnModificar.Location = new System.Drawing.Point(315, 262);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(75, 29);
-            this.btnModificar.TabIndex = 123;
+            this.btnModificar.TabIndex = 166;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(326, 244);
+            this.btnAgregar.Location = new System.Drawing.Point(315, 233);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 29);
-            this.btnAgregar.TabIndex = 122;
+            this.btnAgregar.TabIndex = 165;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(291, 20);
+            this.textBox3.Location = new System.Drawing.Point(280, 9);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 121;
+            this.textBox3.TabIndex = 164;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(171, 20);
+            this.textBox2.Location = new System.Drawing.Point(160, 9);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 120;
+            this.textBox2.TabIndex = 163;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(43, 20);
+            this.textBox1.Location = new System.Drawing.Point(32, 9);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 119;
+            this.textBox1.TabIndex = 162;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(23, 78);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 67);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(662, 156);
-            this.dataGridView1.TabIndex = 118;
+            this.dataGridView1.TabIndex = 161;
             // 
-            // ESTACIONAMIENTO
+            // MARCA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.btnBorrar);
@@ -138,9 +129,9 @@ namespace proyectoZapateria
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "ESTACIONAMIENTO";
-            this.Text = "ESTACIONAMIENTO";
-            this.Load += new System.EventHandler(this.ESTACIONAMIENTO_Load);
+            this.Name = "MARCA";
+            this.Text = "MARCA";
+            this.Load += new System.EventHandler(this.MARCA_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -148,8 +139,6 @@ namespace proyectoZapateria
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button btnBorrar;

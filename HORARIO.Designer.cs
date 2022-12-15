@@ -1,7 +1,7 @@
 ﻿
 namespace proyectoZapateria
 {
-    partial class ESTACIONAMIENTO
+    partial class HORARIO
     {
         /// <summary>
         /// Required designer variable.
@@ -44,86 +44,86 @@ namespace proyectoZapateria
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(424, 20);
+            this.textBox4.Location = new System.Drawing.Point(413, 12);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 127;
+            this.textBox4.TabIndex = 138;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(34, 262);
+            this.button5.Location = new System.Drawing.Point(23, 254);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 29);
-            this.button5.TabIndex = 126;
+            this.button5.TabIndex = 137;
             this.button5.Text = "ANTERIOR";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(141, 262);
+            this.button4.Location = new System.Drawing.Point(130, 254);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 29);
-            this.button4.TabIndex = 125;
+            this.button4.TabIndex = 136;
             this.button4.Text = "SIGUIENTE";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // btnBorrar
             // 
-            this.btnBorrar.Location = new System.Drawing.Point(326, 302);
+            this.btnBorrar.Location = new System.Drawing.Point(315, 294);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(75, 29);
-            this.btnBorrar.TabIndex = 124;
+            this.btnBorrar.TabIndex = 135;
             this.btnBorrar.Text = "Borrar";
             this.btnBorrar.UseVisualStyleBackColor = true;
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(326, 273);
+            this.btnModificar.Location = new System.Drawing.Point(315, 265);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(75, 29);
-            this.btnModificar.TabIndex = 123;
+            this.btnModificar.TabIndex = 134;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(326, 244);
+            this.btnAgregar.Location = new System.Drawing.Point(315, 236);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 29);
-            this.btnAgregar.TabIndex = 122;
+            this.btnAgregar.TabIndex = 133;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(291, 20);
+            this.textBox3.Location = new System.Drawing.Point(280, 12);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 121;
+            this.textBox3.TabIndex = 132;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(171, 20);
+            this.textBox2.Location = new System.Drawing.Point(160, 12);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 120;
+            this.textBox2.TabIndex = 131;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(43, 20);
+            this.textBox1.Location = new System.Drawing.Point(32, 12);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 119;
+            this.textBox1.TabIndex = 130;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(23, 78);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 70);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(662, 156);
-            this.dataGridView1.TabIndex = 118;
+            this.dataGridView1.TabIndex = 129;
             // 
-            // ESTACIONAMIENTO
+            // HORARIO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -138,9 +138,9 @@ namespace proyectoZapateria
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "ESTACIONAMIENTO";
-            this.Text = "ESTACIONAMIENTO";
-            this.Load += new System.EventHandler(this.ESTACIONAMIENTO_Load);
+            this.Name = "HORARIO";
+            this.Text = "HORARIO";
+            this.Load += new System.EventHandler(this.HORARIO_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -148,7 +148,6 @@ namespace proyectoZapateria
         }
 
         #endregion
-
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
